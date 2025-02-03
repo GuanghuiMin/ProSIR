@@ -126,4 +126,5 @@ LocalPush-PDS,0.6406,0.7798,0.8280
 
 7.`mc_baselines_vs_curves.csv`: Comparison between Monte Carlo simulations and approximations.
 
-<img src="./figures/Bitcoin-Alpha.png" alt="output_figure" width="300">
+[//]: # (<img src="./figures/Bitcoin-Alpha.png" alt="output_figure" width="300">)
+![output_figure](./figures/Bitcoin-Alpha.png){ width=300 }
