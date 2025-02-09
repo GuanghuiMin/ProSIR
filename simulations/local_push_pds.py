@@ -115,7 +115,7 @@ def localpush_pds_prob(
 
                 for nbr in out_neighbors[v]:
                     old_val = residuals[nbr]
-                    residuals[nbr] += beta * delta_i  # note: 这里仍是 beta
+                    residuals[nbr] += beta * delta_i
                     if residuals[nbr] > tol and (residuals[nbr] > old_val):
                         push_node(nbr)
                 residuals[v] = 0.0
